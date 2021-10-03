@@ -117,11 +117,53 @@
           <h2>Send us your Feedback</h2>
           <hr />
         </div>
-        <div class="col-md-10">Form goes here</div>
+        <div class="col-md-10">
+          <form>
+            <label for="firstName">First name</label>
+            <input
+              type="text"
+              id="firstName"
+              name="firstName"
+              placeholder="First Name"
+            />
+            <label for="lastName">Last Name</label>
+            <input
+              type="text"
+              id="lastName"
+              name="lastName"
+              placeholder="Last Name"
+            />
+            <label for="areaCode">Area Code</label>
+            <input
+              type="text"
+              name="areaCode"
+              placeholder="Area Code"
+              id="areaCode"
+            />
+            <label for="telNum">Tel Number</label>
+            <input
+              type="text"
+              name="telNum"
+              placeholder="Tel. number"
+              id="telNum"
+            />
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Email" />
+            May we contact you?<input
+              type="radio"
+              name="contactRadios"
+              value="yes"
+            />
+            Yes <input type="radio" name="contactRadios" value="no" /> No Your
+            Feedback<textarea name="feedback" rows="8"></textarea>
+            <button type="submit">Send Feedback</button>
+          </form>
+          >
+        </div>
       </div>
     </div>
 
-    <footer>
+    <footer class="site-footer">
       <div class="container">
         <div class="row">
           <div class="col-4 col-sm-2 offset-1">
