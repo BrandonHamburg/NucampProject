@@ -23,9 +23,9 @@
   },
   "scripts": {
     "lite": "lite-server",
-    "start": "npm run watch:all",
+    "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "scss": "ssass assets/scss/main.scss assets/css/styles.css",
+    "scss": "node-sass -o css/ css/",
     "watch:scss": "onchange 'assets/scss/**/*.scss' -- run scss",
     "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\"",
     "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
