@@ -58,3 +58,14 @@ header h2 {
   bottom: 0;
   z-index: 100;
 }
+
+/* #reserveButton {
+  data-toggle="modal"
+  data-target="#reserveModal"
+  data-placement="top"
+} */
+
+/* #loginButton {
+data-toggle="modal"
+data-target="#loginModal" 
+} */
