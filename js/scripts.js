@@ -12,3 +12,9 @@ $(function () {
     }
   });
 });
+
+$("#reserveButton").modal("toggle" "focus");
+
+// data-toggle="modal"
+//   data-target="#reserveModal"
+//   data-placement="top"
